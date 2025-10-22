@@ -5,6 +5,8 @@ from streamlit_folium import st_folium
 import folium
 from folium.plugins import HeatMap
 import plotly.express as px
+st.cache_data.clear()
+
 
 st.set_page_config(page_title="Mapa de Calor - Indicadores", layout="wide")
 st.title("🔥 Mapa de Calor e Indicadores por Faixa Etária")
